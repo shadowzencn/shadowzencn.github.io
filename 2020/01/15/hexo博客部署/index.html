@@ -6,7 +6,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    hexo���Ͳ��� |  Hexo
+    hexo博客部署 |  Hexo
   </title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   
@@ -39,7 +39,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  hexo���Ͳ���
+  hexo博客部署
 </h1>
   
 
@@ -59,7 +59,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">82字</span>
+            <span class="post-count">226字</span>
         </span>
     </span>
 
@@ -94,42 +94,42 @@
       
 
       
-      <h1 id="hexo���Ͳ���"><a href="#hexo���Ͳ���" class="headerlink" title="hexo���Ͳ���"></a>hexo���Ͳ���</h1><h2 id="002-���ذ�װ������"><a href="#002-���ذ�װ������" class="headerlink" title="002 - ���ذ�װ������"></a>002 - ���ذ�װ������</h2><p>����������</p>
+      <h1 id="hexo博客部署"><a href="#hexo博客部署" class="headerlink" title="hexo博客部署"></a>hexo博客部署</h1><h2 id="002-本地安装与运行"><a href="#002-本地安装与运行" class="headerlink" title="002 - 本地安装与运行"></a>002 - 本地安装与运行</h2><p>所需软件：</p>
 <ul>
 <li><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">node.js</a></li>
 <li>git</li>
 </ul>
-<p>��װ��Ϻ󣬲�������</p>
+<p>安装完毕后，部署命令</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init blog</span><br><span class="line">cd blog</span><br><span class="line">npm install</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
 
-<p>��װ�ɹ���������� <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> ���Բ鿴��</p>
+<p>安装成功，浏览器打开 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 可以查看。</p>
 <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200115130608908.png" alt="image-20200115130608908" style="zoom:80%;" />
 
-<h2 id="003-��ܵL����u��������l�����"><a href="#003-��ܵL����u��������l�����" class="headerlink" title="003 - ��ܵĻ����ṹ��������ļ�����"></a>003 - ��ܵĻ����ṹ��������ļ�����</h2><ul>
-<li>Ŀ¼�ṹ�ĸ���</li>
-<li>���ɾ�̬��վ������<ul>
+<h2 id="003-框架的基本结构与打包后的文件介绍"><a href="#003-框架的基本结构与打包后的文件介绍" class="headerlink" title="003 - 框架的基本结构与打包后的文件介绍"></a>003 - 框架的基本结构与打包后的文件介绍</h2><ul>
+<li>目录结构的概念</li>
+<li>生成静态网站的命令<ul>
 <li>hexo generate</li>
 <li>hexo g</li>
 </ul>
 </li>
-<li>���ɺõ�public�ļ��о�ֱ�ӵ��ɾ�̬��ַ���в��𼴿�</li>
+<li>生成好的public文件夹就直接当成静态网址进行部署即可</li>
 </ul>
-<h2 id="004-�������ⰲװ���Ƽ�"><a href="#004-�������ⰲװ���Ƽ�" class="headerlink" title="004-�������ⰲװ���Ƽ�"></a>004-�������ⰲװ���Ƽ�</h2><p>��ַ��<a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></p>
-<p>�Ƽ���</p>
+<h2 id="004-博客主题安装与推荐"><a href="#004-博客主题安装与推荐" class="headerlink" title="004-博客主题安装与推荐"></a>004-博客主题安装与推荐</h2><p>网址：<a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></p>
+<p>推荐：</p>
 <p><a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank" rel="noopener">https://github.com/Shen-Yu/hexo-theme-ayer</a></p>
 <p><a href="https://github.com/hexojs/hexo-theme-light" target="_blank" rel="noopener">https://github.com/hexojs/hexo-theme-light</a></p>
 <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200115134509434.png" alt="image-20200115134509434" style="zoom:80%;" />
 
-<p>���裺</p>
+<p>步骤：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;Shen-Yu&#x2F;hexo-theme-ayer.git themes&#x2F;ayer</span><br></pre></td></tr></table></figure>
 
-<p>�� hexo �����ļ� <code>_config.yml</code> �и�������Ϊayer</p>
+<p>在 hexo 配置文件 <code>_config.yml</code> 中更改主题为ayer</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: ayer</span><br></pre></td></tr></table></figure>
 
-<p>����</p>
+<p>运行</p>
 <p><code>hexo server</code></p>
-<h2 id="005-�Զ�����Ĳ��ͽu"><a href="#005-�Զ�����Ĳ��ͽu" class="headerlink" title="005 - �Զ�����Ĳ��ͽṹ"></a>005 - �Զ�����Ĳ��ͽṹ</h2><p>���������翪�������Ϳ���ʵ���Զ���</p>
-<h2 id="006-��ο�ʼд��������"><a href="#006-��ο�ʼд��������" class="headerlink" title="006 - ��ο�ʼд��������"></a>006 - ��ο�ʼд��������</h2>
+<h2 id="005-自定义你的博客结构"><a href="#005-自定义你的博客结构" class="headerlink" title="005 - 自定义你的博客结构"></a>005 - 自定义你的博客结构</h2><p>基本的网络开发技术就可以实现自定义</p>
+<h2 id="006-如何开始写博客文章"><a href="#006-如何开始写博客文章" class="headerlink" title="006 - 如何开始写博客文章"></a>006 - 如何开始写博客文章</h2>
       
       <!-- 打赏 -->
       
@@ -139,7 +139,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/01/15/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/" data-id="ck5f19qz8000028wa0q4k0myb"
+      <a data-url="http://yoursite.com/2020/01/15/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/" data-id="ck5f2ibij0000fowa5ob28xrf"
         class="article-share-link">分享</a>
       
     </footer>
